@@ -77,7 +77,9 @@ $ git branch
 
 ``` console
 $ git checkout newBranch
+Switched to branch 'newBranch'
 ```
+
 
 
 
