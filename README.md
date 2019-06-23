@@ -5,12 +5,16 @@ These are my personal notes about my knowledge of git and github
 # Cloning a project from github
 
 ``` console
-git clone https://github.com/c4arl0s/FastEnumeration_ObjectiveC.git
+$ git clone https://github.com/c4arl0s/FastEnumeration_ObjectiveC.git
 ```
 # checking the status of the repository
 
 ``` console
-git status
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
 ```
 
 # adding all the current changes to the local repostory for all files, you can also add one single file.
