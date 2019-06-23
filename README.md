@@ -41,16 +41,6 @@ git pull origin master
 git push origin master
 ```
 
-# What if you want to drop the last changes
-
-``` console
-git stash
-```
-
-``` console
-gits stash drop
-```
-
 # list all the branches created
 
 At this point, it shows only master. Take a look.
@@ -83,4 +73,14 @@ $ git checkout newBranch
 ``` console
 git reset --hard <commit-hash>
 git push -f origin master
+```
+
+# What if you want to drop the last changes
+
+``` console
+git stash
+```
+
+``` console
+gits stash drop
 ```
