@@ -39,6 +39,18 @@ $ git push origin master
 
 ``` console
 $ git pull origin master
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/carlos-santiago-2017/GitNotes
+ * branch            master     -> FETCH_HEAD
+   5ec5521..c9b538d  master     -> origin/master
+Updating 5ec5521..c9b538d
+Fast-forward
+ README.md | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 ```
 
 # What if you want to drop the last changes
