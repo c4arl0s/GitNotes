@@ -60,8 +60,16 @@ git brach
 # Create a new branch called newBranch
 
 ``` console
-git checkout newBranch
+git branch newBranch
 ```
+
+``` console
+$ git branch
+* master
+  newBranch
+```
+
+
 
 
 
