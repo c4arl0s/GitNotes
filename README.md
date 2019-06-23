@@ -161,3 +161,23 @@ remote:   https://github.com/c4arl0s/GitNotes.git
 To https://github.com/carlos-santiago-2017/GitNotes.git
  + 4f71d1b...e488dc6 master -> master (forced update)
 ```
+
+# View an Old version
+
+``` console
+$ git checkout 5ec5521
+Note: checking out '5ec5521'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 5ec5521 fix readme file
+```
+
+
