@@ -80,6 +80,17 @@ $ git checkout newBranch
 Switched to branch 'newBranch'
 ```
 
+# Once you worked on newBranch, come back to the master branch
+
+``` console
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+````
+
+
+
+
 
 
 
