@@ -97,16 +97,6 @@ Date:   Sat Jun 22 20:15:09 2019 -0600
 
 ```
 
-# What if you want to drop the last changes
-
-``` console
-$ git stash
-```
-
-``` console
-$ gits stash drop
-```
-
 # list all the branches created
 
 At this point, it shows only master. Take a look.
