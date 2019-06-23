@@ -20,19 +20,19 @@ nothing to commit, working tree clean
 # Adding all the current changes to the local repostory for all files, you can also add one single file.
 
 ``` console
-git add .
+$ git add .
 ```
 
 # Pulling the changes from github master branch
 
 ``` console
-git pull origin master
+$ git pull origin master
 ```
 
 # Pushing the changes from local repository to remote repository
 
 ``` console
-git push origin master
+$ git push origin master
 ```
 
 # git reset
@@ -45,11 +45,11 @@ git push -f origin master
 # What if you want to drop the last changes
 
 ``` console
-git stash
+$ git stash
 ```
 
 ``` console
-gits stash drop
+$ gits stash drop
 ```
 
 # list all the branches created
@@ -57,14 +57,14 @@ gits stash drop
 At this point, it shows only master. Take a look.
 
 ``` console
-git brach
+$ git brach
 * master
 ```
 
 # Create a new branch called newBranch
 
 ``` console
-git branch newBranch
+$ git branch newBranch
 ```
 
 ``` console
