@@ -73,6 +73,16 @@ $ git branch
   newBranch
 ```
 
+# Once you create the branch, change to the new branch. Use checkout command.
+
+``` console
+$ git checkout newBranch
+```
+
+
+
+
+
 
 
 
