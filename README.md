@@ -6,6 +6,17 @@
 ``` console
 git clone https://github.com/c4arl0s/FastEnumeration_ObjectiveC.git
 ```
+# checking the status of the repository
+
+``` console
+git status
+```
+
+# adding all the current changes to the local repostory for all files, you can also add one single file.
+
+``` console
+git add .
+```
 
 # Pulling the changes from github master branch
 
