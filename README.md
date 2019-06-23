@@ -1,7 +1,10 @@
 # GitNotes
 ## Personal git notes
 
-``` bash
+
+# git reset
+
+``` console
 git reset --hard <commit-hash>
 git push -f origin master
 ```
