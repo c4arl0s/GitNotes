@@ -84,3 +84,13 @@ $ git checkout newBranch
 git reset --hard <commit-hash>
 git push -f origin master
 ```
+
+# What if you want to drop the last changes
+
+``` console
+git stash
+```
+
+``` console
+gits stash drop
+```
