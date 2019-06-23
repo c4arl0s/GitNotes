@@ -33,6 +33,17 @@ $ git commit -m "Add a few changes"
 
 ``` console
 $ git push origin master
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (24/24), 4.43 KiB | 1.11 MiB/s, done.
+Total 24 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), completed with 1 local object.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/c4arl0s/GitNotes.git
+To https://github.com/carlos-santiago-2017/GitNotes.git
+   a693336..5ec5521  master -> master
 ```
 
 # Pulling the changes from github master branch
