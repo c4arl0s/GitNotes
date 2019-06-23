@@ -41,13 +41,6 @@ git pull origin master
 git push origin master
 ```
 
-# git reset
-
-``` console
-git reset --hard <commit-hash>
-git push -f origin master
-```
-
 # What if you want to drop the last changes
 
 ``` console
@@ -79,3 +72,15 @@ $ git branch
   newBranch
 ```
 
+# Once you created the new branch, change to that branch
+
+``` console
+$ git checkout newBranch
+
+
+# git reset
+
+``` console
+git reset --hard <commit-hash>
+git push -f origin master
+```
