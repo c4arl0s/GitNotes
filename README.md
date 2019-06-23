@@ -7,7 +7,7 @@ These are my personal notes about my knowledge of git and github
 ``` console
 $ git clone https://github.com/c4arl0s/FastEnumeration_ObjectiveC.git
 ```
-# checking the status of the repository
+# Checking the status of the repository
 
 ``` console
 $ git status
@@ -17,7 +17,7 @@ Your branch is up to date with 'origin/master'.
 nothing to commit, working tree clean
 ```
 
-# adding all the current changes to the local repostory for all files, you can also add one single file.
+# Adding all the current changes to the local repostory for all files, you can also add one single file.
 
 ``` console
 git add .
@@ -42,7 +42,7 @@ git reset --hard <commit-hash>
 git push -f origin master
 ```
 
-# git stash
+# What if you want to drop the last changes
 
 ``` console
 git stash
