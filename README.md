@@ -23,6 +23,12 @@ nothing to commit, working tree clean
 git add .
 ```
 
+# Commiting the last change
+
+``` console
+$ git commit -m "Add a few changes"
+```
+
 # Pulling the changes from github master branch
 
 ``` console
@@ -72,9 +78,4 @@ $ git branch
 * master
   newBranch
 ```
-
-
-
-
-
 
