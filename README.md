@@ -97,7 +97,7 @@ Date:   Sat Jun 22 20:15:09 2019 -0600
 
 ```
 
-# list all the branches created
+# List all the branches created
 
 At this point, it shows only master. Take a look.
 
@@ -141,7 +141,7 @@ git stash
 gits stash drop
 ```
 
-# what if you want to force to change what you did in local repository and overwrite remote repository, you first received a warning that you cannot push the changes, then add -f option
+# What if you want to force to change what you did in local repository and overwrite remote repository, you first received a warning that you cannot push the changes, then add -f option
 
 ``` console
 $ git push origin master
