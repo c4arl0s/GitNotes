@@ -17,7 +17,7 @@ Your branch is up to date with 'origin/master'.
 nothing to commit, working tree clean
 ```
 
-# Adding all the current changes to the local repostory for all files, you can also add one single file.
+# Adding all the current changes from local repostory for all files, you can also add one single file.
 
 ``` console
 $ git add .
