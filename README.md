@@ -1,6 +1,6 @@
 # GitNotes
 
-this is my personal notes about my knowledge of git and github
+These are my personal notes about my knowledge of git and github
 
 # Cloning a project from github
 
