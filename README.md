@@ -122,13 +122,7 @@ $ git branch
 
 ``` console
 $ git checkout newBranch
-
-
-# git reset
-
-``` console
-git reset --hard <commit-hash>
-git push -f origin master
+Switched to branch 'newBranch'
 ```
 
 # What if you want to drop the last changes
