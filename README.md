@@ -29,16 +29,16 @@ $ git add .
 $ git commit -m "Add a few changes"
 ```
 
-# Pulling the changes from github master branch
-
-``` console
-$ git pull origin master
-```
-
 # Pushing the changes from local repository to remote repository
 
 ``` console
 $ git push origin master
+```
+
+# Pulling the changes from github master branch
+
+``` console
+$ git pull origin master
 ```
 
 # What if you want to drop the last changes
