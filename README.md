@@ -48,4 +48,21 @@ git stash
 gits stash drop
 ```
 
+# list all the branches created
+
+At this point, it shows only master. Take a look.
+
+``` console
+git brach
+* master
+```
+
+# Create a new branch called newBranch
+
+``` console
+git checkout newBranch
+```
+
+
+
 
