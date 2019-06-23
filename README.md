@@ -140,3 +140,30 @@ git stash
 ``` console
 gits stash drop
 ```
+
+# what if you want to force to change what you did in local repository and overwrite remote repository, you first received a warning that you cannot push the changes, then add -f option
+
+``` console
+$ git push origin master
+To https://github.com/carlos-santiago-2017/GitNotes.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/carlos-santiago-2017/GitNotes.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Sat Jun 22 ~/Documents/SWIFT-PROGRAMMING/GitNotes 
+$ git push -f origin master
+Enumerating objects: 91, done.
+Counting objects: 100% (91/91), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (90/90), done.
+Writing objects: 100% (91/91), 18.91 KiB | 1.45 MiB/s, done.
+Total 91 (delta 27), reused 0 (delta 0)
+remote: Resolving deltas: 100% (27/27), done.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/c4arl0s/GitNotes.git
+To https://github.com/carlos-santiago-2017/GitNotes.git
+ + 4f71d1b...e488dc6 master -> master (forced update)
+```
