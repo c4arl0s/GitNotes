@@ -64,6 +64,39 @@ Fast-forward
  1 file changed, 4 insertions(+), 4 deletions(-)
 ```
 
+# Checking the logs of the repository
+
+``` console
+$ git log
+commit a68832739bda48569016e08a0cec0c0be0b81a8d (HEAD -> master, origin/master, origin/HEAD)
+Author: Carlos Santiago <c.santiago.cruz@gmail.com>
+Date:   Sat Jun 22 20:15:09 2019 -0600
+
+    Update README.md
+
+commit d1593c4a5180f598115738476f479b38623a72f7
+Author: Carlos Santiago <c.santiago.cruz@gmail.com>
+Date:   Sat Jun 22 20:13:59 2019 -0600
+
+    Update README.md
+
+commit c9b538dc457598a6b2365407246801a83093f1d7
+Author: Carlos Santiago <c.santiago.cruz@gmail.com>
+Date:   Sat Jun 22 20:10:14 2019 -0600
+
+    Update README.md
+
+commit 5ec55216217e03d92577cce56ed6430817973c13
+Merge: a9c4b0a a693336
+:...skipping...
+commit a68832739bda48569016e08a0cec0c0be0b81a8d (HEAD -> master, origin/master, origin/HEAD)
+Author: Carlos Santiago <c.santiago.cruz@gmail.com>
+Date:   Sat Jun 22 20:15:09 2019 -0600
+
+    Update README.md
+
+```
+
 # What if you want to drop the last changes
 
 ``` console
