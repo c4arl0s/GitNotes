@@ -5,7 +5,7 @@ These are my personal notes about my knowledge of git and github
 # Cloning a project from github
 
 ``` console
-$ git clone https://github.com/c4arl0s/FastEnumeration_ObjectiveC.git
+$ git clone https://github.com/c4arl0s/GitNotes.git
 ```
 # Checking the status of the repository
 
