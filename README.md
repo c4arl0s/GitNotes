@@ -293,8 +293,5 @@ do so (now or later) by using -b with the checkout command again. Example:
 HEAD is now at 5ec5521 fix readme file
 ```
 
-
-
-
-
+# Rebasing
 
