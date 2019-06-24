@@ -1,4 +1,5 @@
 # GitNotes
+<<<<<<< HEAD
 ## Personal git notes
 
 ``` bash
@@ -17,3 +18,6 @@ gits stash drop
 ```
 
 
+=======
+Personal git notes
+>>>>>>> parent of ea96ce1... Reset instruction
