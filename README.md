@@ -8,7 +8,7 @@ into the selected directory type this
 
 ``` console
 $ git init
-
+```
 
 # Cloning a project from github
 
