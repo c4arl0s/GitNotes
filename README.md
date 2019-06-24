@@ -225,6 +225,27 @@ HEAD is now at 5ec5521 fix readme file
 # Undo Commited changes
 
 ``` console
-$ git revert 514fbe7
+$ git checkout 44cf2a6
+Note: checking out '44cf2a6'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 44cf2a6 Fix Reset instruction
 ```
+
+then do revert
+
+``` console
+$ git revert 44cf2a6
+[detached HEAD e895cf5] Revert "Fix Reset instruction"
+ 1 file changed, 2 deletions(-)
+ ```
+
 
