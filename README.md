@@ -268,7 +268,11 @@ lets change to newBranch branch to practice. Firts, if there is no changes, modi
 
 ``` console
 $ git reset --hard
+HEAD is now at f5dba8f change the line where you change to another branch
 ```
+
+woola, see what happens!
+
 
 
 
