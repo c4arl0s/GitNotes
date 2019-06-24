@@ -256,4 +256,9 @@ $ git revert 44cf2a6
  1 file changed, 2 deletions(-)
  ```
 
+# Tag a release 
+
+``` console
+git tag -a v1.0 -m "Stable version of the manual"
+```
 
