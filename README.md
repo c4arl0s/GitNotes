@@ -97,6 +97,48 @@ Date:   Sat Jun 22 20:15:09 2019 -0600
 
 ```
 
+# Show the logs in one line
+
+``` console
+$ git log --oneline
+e1bf6ed (HEAD, origin/master, origin/HEAD) Update README.md
+9d3bc7f Update README.md
+f5dba8f (master) change the line where you change to another branch
+a469ca5 Update README.md
+1c1ab98 Update README.md
+2d8b332 Update README.md
+e488dc6 Delete a few lines
+c51f7c7 Update README.md
+a688327 Update README.md
+d1593c4 Update README.md
+c9b538d Update README.md
+5ec5521 fix readme file
+a693336 Update README.md
+a9c4b0a Merge branch 'master' of https://github.com/carlos-santiago-2017/GitNotes
+76a7957 add a change
+7f7eba9 Update README.md
+0266379 Add a few changes
+40e1f4a Update README.md
+c1e7103 Update README.md
+9d7d81d Update README.md
+479efce Update README.md
+3ca1c8d Update README.md
+1b2ece7 Update README.md
+3213a36 Update README.md
+3e42cab Update README.md
+7756780 Update README.md
+24bbad0 Update README.md
+b2ef33b Update README.md
+cc4df62 Update README.md
+0464fa0 Update README.md
+3c40b21 Update README.md
+49a74fb Update README.md
+7f9e4e8 (newBranch) Update README.md
+44cf2a6 Fix Reset instruction
+ea96ce1 Reset instruction
+4b61b6f Initial commit
+```
+
 # List all the branches created
 
 At this point, it shows only master. Take a look.
