@@ -293,5 +293,78 @@ do so (now or later) by using -b with the checkout command again. Example:
 HEAD is now at 5ec5521 fix readme file
 ```
 
+# Merging a file from another branch.
+
+``` console
+$ git branch
+  master
+  newBranch
+* secondBranch
+```
+
+
+``` console
+$ vim auxiliarFile.txt
+```
+
+
+``` console
+$ git status
+On branch secondBranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	auxiliarFile.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+Mon Jun 24 ~/Documents/SWIFT-PROGRAMMING/GitNotes 
+$ git add auxiliarFile.txt 
+Mon Jun 24 ~/Documents/SWIFT-PROGRAMMING/GitNotes 
+$ git commit -m "this is a commit for the auxiliar file"
+[secondBranch a507f48] this is a commit for the auxiliar file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 auxiliarFile.txt
+Mon Jun 24 ~/Documents/SWIFT-PROGRAMMING/GitNotes 
+$ git push origin secondBranch
+Enumerating objects: 125, done.
+Counting objects: 100% (125/125), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (122/122), done.
+Writing objects: 100% (123/123), 26.62 KiB | 378.00 KiB/s, done.
+Total 123 (delta 40), reused 0 (delta 0)
+remote: Resolving deltas: 100% (40/40), done.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/c4arl0s/GitNotes.git
+remote: 
+remote: Create a pull request for 'secondBranch' on GitHub by visiting:
+remote:      https://github.com/c4arl0s/GitNotes/pull/new/secondBranch
+remote: 
+To https://github.com/carlos-santiago-2017/GitNotes.git
+ * [new branch]      secondBranch -> secondBranch
+Mon Jun 24 ~/Documents/SWIFT-PROGRAMMING/GitNotes 
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Mon Jun 24 ~/Documents/SWIFT-PROGRAMMING/GitNotes 
+$ git merge secondBranch
+Updating d73a5d9..a507f48
+Fast-forward
+ auxiliarFile.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 auxiliarFile.txt
+Mon Jun 24 ~/Documents/SWIFT-PROGRAMMING/GitNotes 
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+Mon Jun 24 ~/Documents/SWIFT-PROGRAMMING/GitNotes 
+$ ls
+LICENSE          README.md        auxiliarFile.txt
+```
+
+
+
 # Rebasing
 
