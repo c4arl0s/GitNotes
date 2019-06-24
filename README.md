@@ -2,6 +2,14 @@
 
 These are my personal notes about my knowledge of git and github
 
+# Initialize the git repository
+
+into the selected directory type this
+
+``` console
+$ git init
+
+
 # Cloning a project from github
 
 ``` console
