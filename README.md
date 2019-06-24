@@ -262,3 +262,14 @@ $ git revert 44cf2a6
 git tag -a v1.0 -m "Stable version of the manual"
 ```
 
+# Undo uncommited changes
+
+lets change to newBranch branch to practice. Firts, if there is no changes, modify readme file, after this, type this:
+
+``` console
+$ git reset --hard
+```
+
+
+
+
