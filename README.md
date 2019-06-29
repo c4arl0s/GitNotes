@@ -368,3 +368,17 @@ LICENSE          README.md        auxiliarFile.txt
 
 # Rebasing
 
+# Delete a local branch
+
+``` console
+$ git branch -D DownloadingThenDisplayingtheImageData
+```
+
+# Delete a remote branch repository
+
+``` console
+$ git push origin -D DownloadingThenDisplayingtheImageData
+```
+
+
+
