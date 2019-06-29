@@ -256,13 +256,13 @@ $ git revert 44cf2a6
  1 file changed, 2 deletions(-)
  ```
 
-# Tag a release 
+# Tag a release (git tag -a -m "Stable version of the manual")
 
 ``` console
 git tag -a v1.0 -m "Stable version of the manual"
 ```
 
-# Undo uncommited changes
+# Undo uncommited changes (git reset --hard)
 
 lets change to newBranch branch to practice. Firts, if there is no changes, modify readme file, after this, type this:
 
