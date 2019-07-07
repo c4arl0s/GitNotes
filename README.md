@@ -212,7 +212,7 @@ To https://github.com/carlos-santiago-2017/GitNotes.git
  + 4f71d1b...e488dc6 master -> master (forced update)
 ```
 
-# View an Old version
+# View an Old version (checkout) 
 
 ``` console
 $ git checkout 5ec5521
@@ -230,7 +230,7 @@ do so (now or later) by using -b with the checkout command again. Example:
 HEAD is now at 5ec5521 fix readme file
 ```
 
-# Undo Commited changes
+# Undo Commited changes (revert)
 
 ``` console
 $ git checkout 44cf2a6
@@ -256,13 +256,13 @@ $ git revert 44cf2a6
  1 file changed, 2 deletions(-)
  ```
 
-# Tag a release 
+# Tag a release (git tag -a -m "Stable version of the manual")
 
 ``` console
 git tag -a v1.0 -m "Stable version of the manual"
 ```
 
-# Undo uncommited changes
+# Undo uncommited changes (git reset --hard)
 
 lets change to newBranch branch to practice. Firts, if there is no changes, modify readme file, after this, type this:
 
