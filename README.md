@@ -391,7 +391,7 @@ LICENSE          README.md        auxiliarFile.txt
 
 
 
-# Rebasing
+# 22. Rebasing
 
 # Delete a local branch
 
