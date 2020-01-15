@@ -3,7 +3,7 @@
 3. [Cloning a project from github](https://github.com/c4arl0s/GitNotes/blob/master/README.md#3-cloning-a-project-from-github)
 4. [Checking the status of the repository](https://github.com/c4arl0s/GitNotes/blob/master/README.md#4-checking-the-status-of-the-repository)
 5. [Adding all the current changes from local repostory for all files, you can also add one single file.](https://github.com/c4arl0s/GitNotes/blob/master/README.md#5-adding-all-the-current-changes-from-local-repostory-for-all-files-you-can-also-add-one-single-file)
-6. [Commiting the last change]()
+6. [Commiting the last change](https://github.com/c4arl0s/GitNotes/blob/master/README.md#6-commiting-the-last-change)
 7. [Pushing the changes from local repository to remote repository]()
 8. [Pulling the changes from github master branch]()
 9. [Checking the logs of the repository]()
