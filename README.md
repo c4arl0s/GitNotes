@@ -16,12 +16,12 @@
 16. [View an Old version (checkout)]()
 17. [Undo Commited changes (revert)]()
 18. [Tag a release (git tag -a -m "Stable version of the manual"]()
-19. Undo uncommited changes (git reset --hard)
-20. What is the HEAD ?
-21. Merging a file from another branch.
-22. Rebasing
-23. Delete a local branch
-24. Delete a remote branch repository
+19. [Undo uncommited changes (git reset --hard)]()
+20. [What is the HEAD ?]()
+21. [Merging a file from another branch.]()
+22. [Rebasing]()
+23. [Delete a local branch]()
+24. [Delete a remote branch repository]()
 
 # GitNotes
 
