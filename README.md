@@ -1,3 +1,28 @@
+1. [GitNotes]()
+2. Initialize the git repository
+3. Cloning a project from github
+4. Checking the status of the repository
+5. Adding all the current changes from local repostory for all files, you can also add one single file.
+6. Commiting the last change
+7. Pushing the changes from local repository to remote repository
+8. Pulling the changes from github master branch
+9. Checking the logs of the repository
+10. Show the logs in one line
+11. List all the branches created
+12. Create a new branch called newBranch
+13. Once you created the new branch, change to that branch
+14. What if you want to drop the last changes
+15. What if you want to force to change what you did in local repository and overwrite remote repository, you first received a warning that you cannot push the changes, then add 
+16. View an Old version (checkout) 
+17. Undo Commited changes (revert)
+18. Tag a release (git tag -a -m "Stable version of the manual")
+19. Undo uncommited changes (git reset --hard)
+20. What is the HEAD ?
+21. Merging a file from another branch.
+22. Rebasing
+23. Delete a local branch
+24. Delete a remote branch repository
+
 # GitNotes
 
 These are my personal notes about my knowledge of git and github
