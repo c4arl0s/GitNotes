@@ -19,7 +19,7 @@
 19. [Undo uncommited changes (git reset --hard)]()
 20. [What is the HEAD ?]()
 21. [Merging a file from another branch.]()
-22. [Rebasing]()
+22. [Rebasing](https://github.com/c4arl0s/GitNotes/blob/master/README.md#22-rebasing)
 23. [Delete a local branch]()
 24. [Delete a remote branch repository]()
 
