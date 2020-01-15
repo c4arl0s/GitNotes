@@ -1,4 +1,4 @@
-1. [GitNotes]()
+1. [GitNotes](https://github.com/c4arl0s/GitNotes/blob/master/README.md#gitnotes)
 2. [Initialize the git repository]()
 3. [Cloning a project from github]()
 4. [Checking the status of the repository]()
