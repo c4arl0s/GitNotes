@@ -7,7 +7,7 @@
 7. [Pushing the changes from local repository to remote repository](https://github.com/c4arl0s/GitNotes/blob/master/README.md#7-pushing-the-changes-from-local-repository-to-remote-repository)
 8. [Pulling the changes from github master branch](https://github.com/c4arl0s/GitNotes/blob/master/README.md#8-pulling-the-changes-from-github-master-branch)
 9. [Checking the logs of the repository](https://github.com/c4arl0s/GitNotes/blob/master/README.md#9-checking-the-logs-of-the-repository)
-10. [Show the logs in one line]()
+10. [Show the logs in one line](https://github.com/c4arl0s/GitNotes#10-show-the-logs-in-one-line)
 11. [List all the branches created]()
 12. [Create a new branch called newBranch](https://github.com/c4arl0s/GitNotes/blob/master/README.md#12-create-a-new-branch-called-newbranch)
 13. [Once you created the new branch, change to that branch]()
