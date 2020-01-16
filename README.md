@@ -13,7 +13,7 @@
 13. [Once you created the new branch, change to that branch](https://github.com/c4arl0s/GitNotes/blob/master/README.md#13-once-you-created-the-new-branch-change-to-that-branch)
 14. [What if you want to drop the last changes](https://github.com/c4arl0s/GitNotes/blob/master/README.md#14-what-if-you-want-to-drop-the-last-changes)
 15. [What if you want to force to change what you did in local repository and overwrite remote repository, you first received a warning that you cannot push the changes, then add](https://github.com/c4arl0s/GitNotes/blob/master/README.md#15-what-if-you-want-to-force-to-change-what-you-did-in-local-repository-and-overwrite-remote-repository-you-first-received-a-warning-that-you-cannot-push-the-changes-then-add--f-option)
-16. [View an Old version (checkout)]()
+16. [View an Old version (checkout)](https://github.com/c4arl0s/GitNotes/blob/master/README.md#16-view-an-old-version-checkout)
 17. [Undo Commited changes (revert)]()
 18. [Tag a release (git tag -a -m "Stable version of the manual"]()
 19. [Undo uncommited changes (git reset --hard)]()
