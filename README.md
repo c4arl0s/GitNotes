@@ -1,4 +1,4 @@
-1. [GitNotes](https://github.com/c4arl0s/GitNotes/blob/master/README.md#gitnotes)
+1. [GitNotes](https://github.com/c4arl0s/GitNotes/blob/master/README.md#1-gitnotes)
 2. [Initialize the git repository](https://github.com/c4arl0s/GitNotes/blob/master/README.md#2-initialize-the-git-repository)
 3. [Cloning a project from github](https://github.com/c4arl0s/GitNotes/blob/master/README.md#3-cloning-a-project-from-github)
 4. [Checking the status of the repository](https://github.com/c4arl0s/GitNotes/blob/master/README.md#4-checking-the-status-of-the-repository)
