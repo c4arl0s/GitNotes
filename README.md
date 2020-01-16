@@ -10,7 +10,7 @@
 10. [Show the logs in one line](https://github.com/c4arl0s/GitNotes#10-show-the-logs-in-one-line)
 11. [List all the branches created](https://github.com/c4arl0s/GitNotes#11-list-all-the-branches-created)
 12. [Create a new branch called newBranch](https://github.com/c4arl0s/GitNotes/blob/master/README.md#12-create-a-new-branch-called-newbranch)
-13. [Once you created the new branch, change to that branch]()
+13. [Once you created the new branch, change to that branch](https://github.com/c4arl0s/GitNotes/blob/master/README.md#13-once-you-created-the-new-branch-change-to-that-branch)
 14. [What if you want to drop the last changes]()
 15. [What if you want to force to change what you did in local repository and overwrite remote repository, you first received a warning that you cannot push the changes, then add]()
 16. [View an Old version (checkout)]()
