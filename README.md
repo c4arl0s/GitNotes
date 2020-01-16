@@ -8,7 +8,7 @@
 8. [Pulling the changes from github master branch](https://github.com/c4arl0s/GitNotes/blob/master/README.md#8-pulling-the-changes-from-github-master-branch)
 9. [Checking the logs of the repository](https://github.com/c4arl0s/GitNotes/blob/master/README.md#9-checking-the-logs-of-the-repository)
 10. [Show the logs in one line](https://github.com/c4arl0s/GitNotes#10-show-the-logs-in-one-line)
-11. [List all the branches created]()
+11. [List all the branches created](https://github.com/c4arl0s/GitNotes#11-list-all-the-branches-created)
 12. [Create a new branch called newBranch](https://github.com/c4arl0s/GitNotes/blob/master/README.md#12-create-a-new-branch-called-newbranch)
 13. [Once you created the new branch, change to that branch]()
 14. [What if you want to drop the last changes]()
