@@ -22,6 +22,7 @@
 22. [Rebasing](https://github.com/c4arl0s/GitNotes/blob/master/README.md#22-rebasing)
 23. [Delete a local branch]()
 24. [Delete a remote branch repository]()
+25. Remove last commit, locally
 
 # 1. GitNotes
 
@@ -405,5 +406,47 @@ $ git branch -D DownloadingThenDisplayingtheImageData
 $ git push origin -D DownloadingThenDisplayingtheImageData
 ```
 
+# 25. Remove last commit, locally
+
+- firts, print the last commit you want to remove
+- in this case: aca205c 
+```swift
+$ git log --oneline
+aca205c (HEAD -> withoutStackViews, origin/withoutStackViews) update links
+5570a14 update readme
+0572e19 fix + sign, and Notes Cell
+ec82660 Update README.md
+7cc3e0a Update README.md
+de1f490 Update README.md
+ec818dd Update README.md
+```
+
+- proced to remove
+
+```console
+$ git reset HEAD^
+```
+
+- take a look how the last commit disappear
+
+```console
+5570a14 (HEAD -> withoutStackViews) update readme
+0572e19 fix + sign, and Notes Cell
+ec82660 Update README.md
+7cc3e0a Update README.md
+de1f490 Update README.md
+```
+
+- now remove the commit remotelly
+
+```console
+git push origin +HEAD
+```
+
+```console
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/c4arl0s/ToDoListApp.git
+ + aca205c...5570a14 HEAD -> withoutStackViews (forced update)
+```
 
 
