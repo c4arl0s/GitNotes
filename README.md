@@ -23,6 +23,9 @@
 23. [Delete a local branch]()
 24. [Delete a remote branch repository]()
 25. Remove last commit, locally
+26. [Undo "git add ."]()
+
+
 
 # 1. GitNotes
 
@@ -449,4 +452,13 @@ To https://github.com/c4arl0s/ToDoListApp.git
  + aca205c...5570a14 HEAD -> withoutStackViews (forced update)
 ```
 
+# 26. [Undo "git add ."]()
+
+```console
+git reset
+```
+
+```console
+git reset
+```
 
