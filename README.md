@@ -22,7 +22,7 @@
 22. [Rebasing](https://github.com/c4arl0s/GitNotes/blob/master/README.md#22-rebasing)
 23. [Delete a local branch]()
 24. [Delete a remote branch repository]()
-25. Remove last commit, locally
+25. [Remove last commit, locally](https://github.com/c4arl0s/GitNotes/blob/master/README.md#25-remove-last-commit-locally-and-remotelly)
 26. [Undo "git add ."]()
 
 
