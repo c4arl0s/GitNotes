@@ -409,7 +409,7 @@ $ git branch -D DownloadingThenDisplayingtheImageData
 $ git push origin -D DownloadingThenDisplayingtheImageData
 ```
 
-# 25. Remove last commit, locally
+# 25. Remove last commit, locally and remotelly.
 
 - firts, print the last commit you want to remove
 - in this case: aca205c 
@@ -440,7 +440,7 @@ ec82660 Update README.md
 de1f490 Update README.md
 ```
 
-- now remove the commit remotelly
+- now remove the commit remotelly 
 
 ```console
 git push origin +HEAD
