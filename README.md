@@ -1,50 +1,47 @@
-1. [GitNotes](https://github.com/c4arl0s/GitNotes/blob/master/README.md#1-gitnotes)
-2. [Initialize the git repository](https://github.com/c4arl0s/GitNotes/blob/master/README.md#2-initialize-the-git-repository)
-3. [Cloning a project from github](https://github.com/c4arl0s/GitNotes/blob/master/README.md#3-cloning-a-project-from-github)
-4. [Checking the status of the repository](https://github.com/c4arl0s/GitNotes/blob/master/README.md#4-checking-the-status-of-the-repository)
-5. [Adding all the current changes from local repostory for all files, you can also add one single file.](https://github.com/c4arl0s/GitNotes/blob/master/README.md#5-adding-all-the-current-changes-from-local-repostory-for-all-files-you-can-also-add-one-single-file)
-6. [Commiting the last change](https://github.com/c4arl0s/GitNotes/blob/master/README.md#6-commiting-the-last-change)
-7. [Pushing the changes from local repository to remote repository](https://github.com/c4arl0s/GitNotes/blob/master/README.md#7-pushing-the-changes-from-local-repository-to-remote-repository)
-8. [Pulling the changes from github master branch](https://github.com/c4arl0s/GitNotes/blob/master/README.md#8-pulling-the-changes-from-github-master-branch)
-9. [Checking the logs of the repository](https://github.com/c4arl0s/GitNotes/blob/master/README.md#9-checking-the-logs-of-the-repository)
-10. [Show the logs in one line](https://github.com/c4arl0s/GitNotes#10-show-the-logs-in-one-line)
-11. [List all the branches created](https://github.com/c4arl0s/GitNotes#11-list-all-the-branches-created)
-12. [Create a new branch called newBranch](https://github.com/c4arl0s/GitNotes/blob/master/README.md#12-create-a-new-branch-called-newbranch)
-13. [Once you created the new branch, change to that branch](https://github.com/c4arl0s/GitNotes/blob/master/README.md#13-once-you-created-the-new-branch-change-to-that-branch)
-14. [What if you want to drop the last changes](https://github.com/c4arl0s/GitNotes/blob/master/README.md#14-what-if-you-want-to-drop-the-last-changes)
-15. [What if you want to force to change what you did in local repository and overwrite remote repository, you first received a warning that you cannot push the changes, then add](https://github.com/c4arl0s/GitNotes/blob/master/README.md#15-what-if-you-want-to-force-to-change-what-you-did-in-local-repository-and-overwrite-remote-repository-you-first-received-a-warning-that-you-cannot-push-the-changes-then-add--f-option)
-16. [View an Old version (checkout)](https://github.com/c4arl0s/GitNotes/blob/master/README.md#16-view-an-old-version-checkout)
-17. [Undo Commited changes (revert)](https://github.com/c4arl0s/GitNotes/blob/master/README.md#17-undo-commited-changes-revert)
+1. [GitNotes]()
+2. [Initialize the git repository]()
+3. [Cloning a project from github]()
+4. [Checking the status of the repository]()
+5. [Adding all the current changes from local repostory for all files, you can also add one single file.]()
+6. [Commiting the last change]()
+7. [Pushing the changes from local repository to remote repository]()
+8. [Pulling the changes from github master branch]()
+9. [Checking the logs of the repository]()
+10. [Show the logs in one line]()
+11. [List all the branches created]()
+12. [Create a new branch called newBranch]()
+13. [Once you created the new branch, change to that branch]()
+14. [What if you want to drop the last changes]()
+15. [What if you want to force to change what you did in local repository and overwrite remote repository, you first received a warning that you cannot push the changes, then add]()
+16. [View an Old version (checkout)]()
+17. [Undo Commited changes (revert)]()
 18. [Tag a release (git tag -a -m "Stable version of the manual"]()
 19. [Undo uncommited changes (git reset --hard)]()
 20. [What is the HEAD ?]()
 21. [Merging a file from another branch.]()
-22. [Rebasing](https://github.com/c4arl0s/GitNotes/blob/master/README.md#22-rebasing)
+22. [Rebasing](()
 23. [Delete a local branch]()
 24. [Delete a remote branch repository]()
-25. [Remove last commit, locally](https://github.com/c4arl0s/GitNotes/blob/master/README.md#25-remove-last-commit-locally-and-remotelly)
+25. [Remove last commit, locally]()
 26. [Undo "git add ."]()
+27. [Tag a release]()
 
 
-
-# 1. GitNotes
-
+# 1. [GitNotes]()
 These are my personal notes about my knowledge of git and github
 
-# 2. Initialize the git repository
-
+# 2. [Initialize the git repository]()
 into the selected directory type this
 
 ``` console
 $ git init
 ```
 
-# 3. Cloning a project from github
-
+# 3. [Cloning a project from github]()
 ``` console
 $ git clone https://github.com/c4arl0s/GitNotes.git
 ```
-# 4. Checking the status of the repository
+# 4. [Checking the status of the repository]()
 
 ``` console
 $ git status
@@ -54,19 +51,18 @@ Your branch is up to date with 'origin/master'.
 nothing to commit, working tree clean
 ```
 
-# 5. Adding all the current changes from local repostory for all files, you can also add one single file.
-
+# 5. [Adding all the current changes from local repostory for all files, you can also add one single file.]()
 ``` console
 $ git add .
 ```
 
-# 6. Commiting the last change
+# 6. [Commiting the last change]()
 
 ``` console
 $ git commit -m "Add a few changes"
 ```
 
-# 7. Pushing the changes from local repository to remote repository
+# 7. [Pushing the changes from local repository to remote repository]()
 
 ``` console
 $ git push origin master
@@ -83,8 +79,7 @@ To https://github.com/carlos-santiago-2017/GitNotes.git
    a693336..5ec5521  master -> master
 ```
 
-# 8. Pulling the changes from github master branch
-
+# 8. [Pulling the changes from github master branch]()
 ``` console
 $ git pull origin master
 remote: Enumerating objects: 5, done.
@@ -101,7 +96,7 @@ Fast-forward
  1 file changed, 4 insertions(+), 4 deletions(-)
 ```
 
-# 9. Checking the logs of the repository
+# 9. [Checking the logs of the repository]()
 
 ``` console
 $ git log
@@ -134,8 +129,7 @@ Date:   Sat Jun 22 20:15:09 2019 -0600
 
 ```
 
-# 10. Show the logs in one line
-
+# 10. [Show the logs in one line]()
 ``` console
 $ git log --oneline
 e1bf6ed (HEAD, origin/master, origin/HEAD) Update README.md
@@ -176,8 +170,7 @@ ea96ce1 Reset instruction
 4b61b6f Initial commit
 ```
 
-# 11. List all the branches created
-
+# 11. [List all the branches created]()
 At this point, it shows only master. Take a look.
 
 ``` console
@@ -185,8 +178,7 @@ $ git brach
 * master
 ```
 
-# 12. Create a new branch called newBranch
-
+# 12. [Create a new branch called newBranch]()
 ``` console
 $ git branch newBranch
 ```
@@ -197,15 +189,13 @@ $ git branch
   newBranch
 ```
 
-# 13. Once you created the new branch, change to that branch
-
+# 13. [Once you created the new branch, change to that branch]()
 ``` console
 $ git checkout newBranch
 Switched to branch 'newBranch'
 ```
 
-# 14. What if you want to drop the last changes
-
+# 14. [What if you want to drop the last changes]()
 ``` console
 git stash
 ```
@@ -214,8 +204,7 @@ git stash
 gits stash drop
 ```
 
-# 15. What if you want to force to change what you did in local repository and overwrite remote repository, you first received a warning that you cannot push the changes, then add -f option
-
+# 15. [What if you want to force to change what you did in local repository and overwrite remote repository, you first received a warning that you cannot push the changes, then add]()
 ``` console
 $ git push origin master
 To https://github.com/carlos-santiago-2017/GitNotes.git
@@ -241,8 +230,7 @@ To https://github.com/carlos-santiago-2017/GitNotes.git
  + 4f71d1b...e488dc6 master -> master (forced update)
 ```
 
-# 16. View an Old version (checkout) 
-
+# 16. [View an Old version (checkout)]()
 ``` console
 $ git checkout 5ec5521
 Note: checking out '5ec5521'.
@@ -259,8 +247,7 @@ do so (now or later) by using -b with the checkout command again. Example:
 HEAD is now at 5ec5521 fix readme file
 ```
 
-# 17. Undo Commited changes (revert)
-
+# 17. [Undo Commited changes (revert)]()
 ``` console
 $ git checkout 44cf2a6
 Note: checking out '44cf2a6'.
@@ -285,13 +272,12 @@ $ git revert 44cf2a6
  1 file changed, 2 deletions(-)
  ```
 
-# 18. Tag a release (git tag -a -m "Stable version of the manual")
-
+# 18. [Tag a release (git tag -a -m "Stable version of the manual"]()
 ``` console
 git tag -a v1.0 -m "Stable version of the manual"
 ```
 
-# 19. Undo uncommited changes (git reset --hard)
+# 19. [Undo uncommited changes (git reset --hard)]()
 
 lets change to newBranch branch to practice. Firts, if there is no changes, modify readme file, after this, type this:
 
@@ -302,8 +288,7 @@ HEAD is now at f5dba8f change the line where you change to another branch
 
 woola, see what happens!
 
-# 20. What is the HEAD ?
-
+# 20. [What is the HEAD ?]()
 The HEAD is git`s internal way of indicating the snapshot that is currently checked out.
 
 ``` console
@@ -322,8 +307,7 @@ do so (now or later) by using -b with the checkout command again. Example:
 HEAD is now at 5ec5521 fix readme file
 ```
 
-# 21. Merging a file from another branch.
-
+# 21. [Merging a file from another branch.]()
 ``` console
 $ git branch
   master
@@ -393,24 +377,19 @@ $ ls
 LICENSE          README.md        auxiliarFile.txt
 ```
 
+# 22. [Rebasing](()
 
-
-# 22. Rebasing
-
-# 23. Delete a local branch
-
+# 23. [Delete a local branch]()
 ``` console
 $ git branch -D DownloadingThenDisplayingtheImageData
 ```
 
-# 24. Delete a remote branch repository
-
+# 24. [Delete a remote branch repository]()
 ``` console
 $ git push origin -D DownloadingThenDisplayingtheImageData
 ```
 
-# 25. Remove last commit, locally and remotelly.
-
+# 25. [Remove last commit, locally]()
 - firts, print the last commit you want to remove
 - in this case: aca205c 
 ```swift
@@ -453,7 +432,6 @@ To https://github.com/c4arl0s/ToDoListApp.git
 ```
 
 # 26. [Undo "git add ."]()
-
 ```console
 git reset
 ```
@@ -461,4 +439,4 @@ git reset
 ```console
 git reset
 ```
-
+# 27. [Tag a release]()
