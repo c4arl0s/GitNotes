@@ -27,6 +27,7 @@
 25. [Remove last commit, locally](https://github.com/c4arl0s/GitNotes/blob/master/README.md#25-remove-last-commit-locally)
 26. [Undo "git add ."](https://github.com/c4arl0s/GitNotes/blob/master/README.md#26-undo-git-add-)
 27. [Tag a release](https://github.com/c4arl0s/GitNotes/blob/master/README.md#27-tag-a-release)
+28. [Push tags to master]()
 
 
 # 1. [GitNotes](https://github.com/c4arl0s/GitNotes/blob/master/README.md#git-notes)
@@ -442,3 +443,14 @@ git reset
 git reset
 ```
 # 27. [Tag a release](https://github.com/c4arl0s/GitNotes/blob/master/README.md#git-notes)
+
+```console
+git tag -a v1.0 -m "Stable version of ApplePieApp"
+```
+
+# 28. [Push tags to master](https://github.com/c4arl0s/GitNotes/blob/master/README.md#git-notes))
+
+
+```console
+$ git push --tags origin master
+```
